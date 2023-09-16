@@ -21,7 +21,7 @@ app.title("MP3 Downloader")
 customtkinter.set_default_color_theme("blue")
 customtkinter.set_appearance_mode("dark")
 
-bg = tkinter.PhotoImage(file=r"C:\Users\tibor\OneDrive\Počítač\MP3_downloader\bg_image\bg.png")
+bg = tkinter.PhotoImage(file=r"bg_image\bg.png")
 background = tkinter.Label(app, image=bg)
 background.place(x=0, y=0, relheight=1, relwidth=1)
 
